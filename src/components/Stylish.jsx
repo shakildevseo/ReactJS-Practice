@@ -1,4 +1,5 @@
 import "./externalCss.css"
+import styles from "./stylish.module.css"
 
 function Stylish(){
 
@@ -39,6 +40,13 @@ const myStyle = {
           <h2 style={myStyle}>Hey This Style From Javascript Object</h2>
 
            {/* Javascript Object  Style   End  */}
+
+
+          {/* Module CSS Start */}
+
+          <h2 className={styles.styleModule}>Hey This Style From Module CSS</h2>
+
+           {/* Module CSS  End  */}
 
 
          
