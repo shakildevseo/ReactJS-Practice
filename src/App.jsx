@@ -1,12 +1,11 @@
-import "./App.css";
-import Stylish from "./components/Stylish";
+import CardContainer from "./components/CardComponent/CardContainer";
+
+
 
 function App() {
   return (
     <>
-    
-    <Stylish />
-    
+   <CardContainer />
     </>
   )
 }

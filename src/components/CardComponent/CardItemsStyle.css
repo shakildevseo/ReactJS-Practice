@@ -1,0 +1,39 @@
+.product-items {
+    height: 255px;
+    width: 210px;
+    border-radius: 10px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    .div-image {
+        padding: 8px 0;
+      img {
+        height: 120px;
+        width: 140px;
+        object-fit: cover;
+      }
+    }
+
+    .product-content {
+      button {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 5px 8px;
+        border-radius: 8px;
+        border: 1px solid #222;
+        outline: none;
+        transition: 1s;
+        margin-top: 6px;
+      }
+
+      button:hover {
+        background-color: red;
+        
+      }
+
+      h2 {
+        font-size: 14px;
+      }
+    }
+  }
