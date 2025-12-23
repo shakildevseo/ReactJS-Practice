@@ -1,0 +1,24 @@
+
+[
+    {
+        "name" : "Md Shakil Hossain",
+        "age" : "19",
+        "skill" : "MERN"
+    },
+    {
+        "name" : "Md Shamim D",
+        "age" : "18",
+        "skill" : "igital Marketer"
+    },
+    {
+        "name" : "Md Shakib Hossain ",
+        "age" : "18",
+        "skill" : "Dentist"
+    },
+    {
+        "name" : "Md Jahidur Rahim ",
+        "age" : "26",
+        "skill" : "Cricketer"
+    }
+
+]
