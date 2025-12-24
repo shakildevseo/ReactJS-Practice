@@ -1,8 +1,9 @@
 import CardContainer from "./components/CardComponent/CardContainer";
 import Demo from "./components/CardComponent/Demo/Demo";
 import DateAndTime from "./components/DateAndTime";
+import ParentComponents from "./components/Parent/ParentComponents";
+import Student from "./components/StudentComponent/Student";
 import User from "./components/UserComponent/User";
-import userInfo from "./UserData/userData.json";
 
 
 function App() {
@@ -18,9 +19,9 @@ function App() {
    <Demo name = "Shakib" desc= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nisi, rem modi impedit porro esse voluptate sapiente suscipit quisquam ducimus, perspiciatis maiores, cum nam ratione reiciendis officiis vel obcaecati saepe enim. Officiis delectus ullam amet natus sequi, veritatis itaque error dolorem excepturi? Sequi, ut nulla." /> */}
 
 
-     {userInfo.map(({name, skill, age})=>(
+     {/* {userInfo.map(({name, skill, age})=>(
         <User name={name} skill = {skill} age={age}/>
-     ))}
+     ))} */}
    
 
    {/* or */}
@@ -28,8 +29,9 @@ function App() {
     {/* {userInfo.map((data)=>(
         <User name={data.name} skill = {data.skill} age={data.age}/>
      ))} */}
+    {/* <Student /> */}
 
-
+   <ParentComponents />
     </>
   )
 }
