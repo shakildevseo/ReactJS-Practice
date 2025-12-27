@@ -1,6 +1,7 @@
 import CardContainer from "./components/CardComponent/CardContainer";
 import Demo from "./components/CardComponent/Demo/Demo";
 import DateAndTime from "./components/DateAndTime";
+import DynamicStyle from "./components/DynamicStyles/DynamicStyle-Mode/DynamicStyle";
 import ParentComponents from "./components/Parent/ParentComponents";
 import Student from "./components/StudentComponent/Student";
 import User from "./components/UserComponent/User";
@@ -31,7 +32,8 @@ function App() {
      ))} */}
     {/* <Student /> */}
 
-   <ParentComponents />
+   {/* <ParentComponents /> */}
+   <DynamicStyle />
     </>
   )
 }
